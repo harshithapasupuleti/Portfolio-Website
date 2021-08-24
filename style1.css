@@ -1,0 +1,237 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: black;
+    color: cornsilk;
+}
+.navbar{
+    font-family: Montserrat;
+    font-size: 14px ;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+ .navbar-light .navbar-nav .nav-link{
+      padding-left: 40px;
+  }
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:crimson;
+}
+/* home content */
+#content #image1{
+    padding-top:100px ;
+}
+#content #hello{
+    padding-top: 200px;
+    font-size: 25px;
+    font-weight: normal;
+}
+#content #name{
+    font-weight: bolder;
+    color: grey;
+    font-size: 50px;
+    padding-top: 30px;
+}
+#content #and{
+    font-weight: lighter;
+    font-size: 30px;
+    padding-top: 20px;
+}
+#contact a , #resume a,#show a{
+    font-weight: normal;
+    font-size: 25px;
+    border: 1px solid red;
+    padding: 10px;
+    background-color: red;
+    border-radius: 500px;
+    margin-top: 20px;
+}
+ #content .row{
+    text-align: center;
+}
+#content #contact {
+    padding-top: 50px;
+}
+#content #contact a{
+    text-decoration: none;
+    color: cornsilk;
+}
+/* about */
+ #about #heading h3{
+    color: gray;
+}
+#heading{
+    padding-top:100px ;
+    padding-bottom: 100px;
+}
+#about .row{
+    text-align: center;
+}
+#about_content {
+    font-size: 20px;
+    padding-top: 100px;
+  }
+  #resume{
+      margin-top: 50px;
+  }
+  #resume a{
+      text-decoration: none;
+      color: cornsilk;
+  }
+  #about #image2 img{
+      width: 70%;
+  }
+  /* skills */
+#my h3{
+  color: gray;
+  padding-top: 30px;
+  padding-bottom: 100px;
+
+}
+
+#skills img , #skills i,#skills svg{
+    opacity: 50%;
+}
+#skills #c{
+    margin-left: 200px;
+    padding-bottom: 20px;
+}
+#c img{
+    width: 40%;
+}
+#skills #cpp{
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+#python img{
+    width: 35%;
+}
+#skills #python{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#skills i{
+    font-size: 200px;
+}
+#html{
+    text-align: center;
+}
+#css{
+    text-align: center;
+
+}
+#bootstrap{
+    text-align: center;
+    padding-top: 20px;
+}
+/* projects */
+#projects h3{
+    color: gray;
+
+}
+#projects img{
+    width: 18rem;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#projects .card{
+    background:gray;
+    width: 18rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#projects .card .btn{
+    border-radius: 500px;
+    margin-left: 60px;
+}
+#projects .card-title, #projects .card-text{
+    text-align: center;
+ }
+ /* contact */
+ #contact_me{
+     text-align: center;
+ }
+ #contact_me .post-heading h3{
+    color: gray;
+}
+#contact_me #mail{
+    margin-top: 150px;
+}
+#contact_me  i{
+  font-size: 50px;
+}
+#mail h3{
+  font-size: 30px;
+  font-weight: lighter;
+}
+#phone{
+  margin-top: 50px;
+}
+#phone h3{
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 200px;
+}
+/* button hover */
+#content #contact a:hover,#resume a:hover,.card a:hover{
+    background-color: white;
+    color: black;
+}
+/* footer */
+#footer{
+    text-align: center;
+}
+#footer p{
+    padding-top: 10px;
+    color: black;
+    font-weight: normal;
+
+}
+#foot{
+    color: black;
+}
+#footer i{
+    padding: 4px;
+    color: black;
+}
+/* media query */
+/* ----------smatphone------------ */
+@media only screen and (max-width: 479px){
+    #contact_me{
+        text-align: center;
+    }
+    #contact_me h1{
+       text-align: center;
+       font-size: 40px;
+       color: gray;
+       margin-top: 150px;
+   }
+   #contact_me #mail{
+       margin-top: 150px;
+   }
+   #contact_me  i{
+     font-size: 50px;
+   }
+   #mail h3{
+     font-size: 20px;
+     font-weight: lighter;
+   }
+   #phone{
+     margin-top: 50px;
+   }
+   #phone h3{
+     font-size: 20px;
+     font-weight: lighter;
+     margin-bottom: 200px;
+   }
+
+}
